@@ -1,0 +1,11 @@
+CREATE DATABASE marksdb;
+
+USE marksdb;
+
+CREATE TABLE student_marks (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  student_id INT,
+  internal DOUBLE,
+  total DOUBLE,
+  grade VARCHAR(10)
+);
